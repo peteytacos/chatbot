@@ -34,12 +34,12 @@ export default function SubscriptionDialog(
 ) {
   async function handleCheckout() {
     try {
-      const lineItems = [
-        {
-          price: 'price_1OpZIpFohaWPLRtCx8kh4FN5',
-          quantity: 1
-        }
-      ]
+      const lineItems =
+      {
+        price: 'price_1PE1sB02nWSSemMzjeggxvuE',
+        quantity: 1
+      }
+
 
       const { sessionId, checkoutError } =
         await createStripeCheckoutSession(lineItems)
